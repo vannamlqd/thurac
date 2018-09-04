@@ -1,0 +1,126 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+        }
+        .mb{
+            margin-top: 10px;
+            // text-align: center;
+            // margin: auto;
+        }
+        .more{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp:3;
+        }
+        .seemore{
+            color: blue;
+            cursor: pointer;
+        }
+        .clear {
+            clear: both;
+        }
+        .banner{
+            padding-bottom: 10%;
+            background-image: url('../img/banner2.jpg');
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #navtop {
+            border-radius: 0px;
+            min-height: 0px;
+        }
+        #navtop .nav a {
+            padding: 3px 15px;
+            font-weight: bold;
+            color: #fff;
+        }
+        #navtop .left a {
+            margin-right: 15px;
+        }
+        #navtop .nav li {
+            padding: 6px 0px;
+            position: relative;
+        }
+        #navtop .navbar-brand {
+            height: auto;
+        }
+        #navtop .user a {
+            background-color: green;
+            border-radius: 3px;
+        }
+        #navtop .nav li:hover .l2 {
+            visibility: visible;
+        }
+        .l2,
+        .l3 {
+            visibility: hidden;
+            background-color: gray;
+            position: absolute;
+            top: 100%;
+            z-index: 10;
+            min-width:150px
+        }
+        .l2 li {
+            border-bottom: 1px solid #fff;
+            list-style: none;
+            padding-left: 5px !important;
+
+        }
+        .l2 > li:hover {
+            background-color: #111;
+            position: relative
+        }
+        .l2 > li:hover .l3 {
+            visibility: visible
+        }
+        .l2 li a {
+            margin-right: 0px !important;
+            margin-left: 3px !important;
+            font-weight: normal !important;
+            text-decoration: none;
+            padding: 0px!important;
+        }
+        .l3 {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: #ddd
+        }
+        .l3 li a {
+            color: #111 !important
+        }
+        .l3 li:hover{background-color:#DDCFCF;}
+        #wrap .panel {
+            border-radius: 0px;
+        }
+        #wrap .panel-heading {
+            border-radius: 0px;
+            font-size: 18px;
+        }
+        #wrap .add {
+            background-color: red;
+            color: #fff;
+            border-radius: 1px;
+            padding: 4px 15px;
+            font-size: 13px;
+            text-decoration: none;
+            float: right;
+        }
+        #wrap .panel-body {
+            padding: 10px 5px;
+        }
+        #wrap .panel-body .nav a {
+            color: #111 !important
+        }
+        #wrap .form {
+            margin-bottom: 10px;
+        }
+        #wrap .wtable table {
+            margin-bottom: 0px;
+        }
+        footer{background-image:url("../img/FOOTER.png");background-repeat: no-repeat;background-size: cover ;color:#fff;padding:10px 0px;}
+        footer p{margin-bottom: 0px;font-weight: bold;font-style:italic}
